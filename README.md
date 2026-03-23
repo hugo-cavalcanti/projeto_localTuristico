@@ -9,4 +9,5 @@ CSS Moderno: Uso de Flexbox para alinhamento e bordas arredondadas em imagens.
 Layout Fiel: Estilização baseada em um design proposto, cuidando de cores e fontes.
 
 📸 Como ficou:
+
 ![projetoima](https://github.com/user-attachments/assets/2136b172-e6c8-4af1-b6a1-7a4e588e346f)
