@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F4F0;
+    font-family: 'Open sans', 'Inter', sans-serif;
+    color: #1b1b1b;
+}
+
+.container, 
+.page-header {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.page-header {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.intro {
+    margin-bottom: 2rem;
+}
+
+.chamada, 
+.previa {
+    color: #E1624F;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em; 
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #1b1b1b;
+    margin: 0;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 45px;
+    display: block;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.hero-banner figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #696969;
+    margin-top: 1.5rem;
+    padding: 0 10%;
+    line-height: 1.5;
+}
+
+.main-header {
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+}
+
+.main-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #111;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.main-header p {
+    font-size: 1.05rem;
+    color: #4a5568;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.destinos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 45px;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.lugar h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 1rem;
+}
+
+.lugar p {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.tags span {
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.tags ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+
+.tags ul li {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.tag-azul {
+    color: #0C51A7;
+}
+
+.tag-roxa {
+    color: #591B98;
+}
+
+.tag-rosa {
+    color: #E5245E;
+}
+
+.tag-laranja {
+    color: #E95E10;
+}
+
+body > p {
+    max-width: 900px;
+    margin: 5rem auto 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #333333;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 2rem;
+    line-height: 1.5;
+}
+
+.conclusao {
+    max-width: 850px;
+    margin: 60px auto 40px;
+    padding: 30px 20px 0;
+    border-top: 1px solid #D9D9D9;
+}
+
+.conclusao p {
+    text-align: center;
+    color: #696969;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
